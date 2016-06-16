@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from confab.email_functionality import email_admin, email_client
+from CONFAB.email_functionality import email_admin, email_client
 from django.db import models
 
 

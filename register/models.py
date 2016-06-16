@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 from django.db import models
-from confab.email_functionality import email_admin, email_client
+from CONFAB.email_functionality import email_admin, email_client
 from mainApp.models import SiteSetting
 
 try:
