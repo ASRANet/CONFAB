@@ -56,7 +56,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'CONFAB.urls'
+ROOT_URLCONF = 'confab.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
-WSGI_APPLICATION = 'CONFAB.wsgi.application'
+WSGI_APPLICATION = 'confab.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
@@ -126,7 +126,7 @@ USE_TZ = True
 SSLIFY_DISABLE = True
 
 EMAIL_HOST = 'mail.netcetera.co.uk'
-EMAIL_HOST_USER = 'CONFAB@asranet.co.uk'
+EMAIL_HOST_USER = 'confab@asranet.co.uk'
 EMAIL_HOST_PASSWORD = os.environ['confab_password']
 EMAIL_PORT = 25
 
