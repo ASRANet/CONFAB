@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ['confab_key']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'firandblast.co.uk', 'www.fireandblast.co.uk']
+ALLOWED_HOSTS = ['localhost', 'fireandblast.co.uk', 'www.fireandblast.co.uk']
 
 # Application definition
 
