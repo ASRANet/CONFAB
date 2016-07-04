@@ -7,7 +7,7 @@ from reportlab.platypus.doctemplate import SimpleDocTemplate
 from reportlab.platypus import Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 from django.http import HttpResponse
-from NUPP.settings import EMAIL_HOST_USER
+from confab.settings import EMAIL_HOST_USER
 from mainApp.models import SiteSetting
 
 try:
