@@ -127,7 +127,7 @@ else:
     CSRF_COOKIE_SECURE = True
 
 EMAIL_HOST = 'mail.netcetera.co.uk'
-EMAIL_HOST_USER = 'confab@asranet.co.uk'
+EMAIL_HOST_USER = 'info@fireandblast.co.uk'
 EMAIL_HOST_PASSWORD = os.environ['confab_password']
 EMAIL_PORT = 25
 
