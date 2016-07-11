@@ -221,18 +221,18 @@ body {
   font-size: medium;
 }
 .featurette-heading {
-  color: orangered;
+  color: #ff7f0b;
 }
 .tab-disabled {
   opacity: 0.5;
 }
 #sidebarNav > li > a {
-  color: orangered;
+  color: #ff7f0b;
 }
 #sidebar .nav > .active > a,
 #sidebar .nav > li > a:hover,
 #sidebar .nav > li > a:focus {
-  background-color: orangered;
+  background-color: #ff7f0b;
   color: white;
 }
 .navbar {
@@ -259,14 +259,14 @@ body > div.navbar-wrapper > div > nav > div > div.navbar-header > a {
   position: fixed;
   bottom: 5%;
   left: 5%;
-  color: orangered;
+  color: #ff7f0b;
 }
 body > div.back-to-top > a {
-  color: orangered;
+  color: #ff7f0b;
 }
 .footer-title {
   text-align: center;
-  background: rgba(255, 69, 0, 0.2);
+  background: rgba(255, 127, 11, 0.2);
 }
 .center-text p {
   text-align: center;
