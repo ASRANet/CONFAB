@@ -20,8 +20,8 @@ class SubmittedAbstract(models.Model):
                        ["Paper Title", self.paper_title], ["Abstract", self.abstract],
                        ]
 
-        email_client(self, "AdWind 2017 Abstract Upload", "Thank you for uploading your abstract to AdWind 2017")
-        email_admin(self, "New AdWind 2017 Abstract", "Please find enclosed the details for the new AdWind "
+        email_client(self, "CONFAB 2017 Abstract Upload", "Thank you for uploading your abstract to CONFAB 2017")
+        email_admin(self, "New CONFAB 2017 Abstract", "Please find enclosed the details for the new CONFAB "
                                                       "2017 abstract upload.", sorted_self)
 
         super(SubmittedAbstract, self).save(*args, **kwargs)
