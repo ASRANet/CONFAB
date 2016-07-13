@@ -32,11 +32,8 @@ class User(models.Model):
 
         site_settings = SiteSetting.objects.all().first()
 
-        email_client(self, site_settings.site_name + "Conference Registration", "You are officially registered for " +
-                     site_settings.site_name)
-        email_admin(self, "New " + site_settings.site_name + " Registrant",
-                    "Please find enclosed the details for the new " + site_settings.site_name + " registrant.",
-                    sorted_self)
+        email_client(self, site_settings.site_name + "Conference Registration", "You are officially registered for CONFAB 2017")
+        email_admin(self, "New " + site_settings.site_name + " Registrant", "Please find enclosed the details for the new " + site_settings.site_name + " registrant.", sorted_self)
 
         super(User, self).save(*args, **kwargs)
 
