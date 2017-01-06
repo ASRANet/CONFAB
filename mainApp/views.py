@@ -25,10 +25,10 @@ def author_instructions(request):
                   "id": "AbstractInformation",
                    "table_class":
                        "<ul><li>All authors interested in submitting a paper for the conference should "
-                       " submit a short abstract to for review, this should be around 300 words"
+                       " submit a short abstract to for review, this should be around 300 words "
                        "in total and summarise the themes of the full paper. This should be "
                        "written in the 'Abstract' box at the bottom of the 'Upload Abstract'"
-                       "page, along with all other required info.</li></ul>"},
+                       " page, along with all other required info.</li></ul>"},
 
                     {"headline": "Speaker Information",
                   "id": "SpeakerInformation",
@@ -41,7 +41,7 @@ def author_instructions(request):
                        "the relevant files to us at least 24 hours before you are due to speak.</li>"
                        "<br>"
                        "<li>The timeslots allocated to presenters are 20min: 15 minutes for your presentation and a"
-                       " further 10 minutes for questions from the audience. The session chairs will remind you when"
+                       " further 5 minutes for questions from the audience. The session chairs will remind you when"
                        " your time has finished. Please keep these times in mind.</li>"
                        "<br>"
                        "<li>All speakers should be in the relevant room, in which their presentation will take"
