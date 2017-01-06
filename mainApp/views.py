@@ -41,7 +41,7 @@ def author_instructions(request):
                        "the relevant files to us at least 24 hours before you are due to speak.</li>"
                        "<br>"
                        "<li>The timeslots allocated to presenters are 20min: 15 minutes for your presentation and a"
-                       " further 5 minutes for questions from the audience. The session chairs will remind you when"
+                       " further 10 minutes for questions from the audience. The session chairs will remind you when"
                        " your time has finished. Please keep these times in mind.</li>"
                        "<br>"
                        "<li>All speakers should be in the relevant room, in which their presentation will take"
