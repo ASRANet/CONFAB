@@ -21,7 +21,16 @@ def venue(request):
 def author_instructions(request):
     site_settings = SiteSetting.objects.all().first()
 
-    story_list = [{"headline": "Speaker Information",
+    story_list = [{"headline": "Abstract Submission Information",
+                  "id": "AbstractInformation",
+                   "table_class":
+                       "<ul><li>All authors interested in submitting a paper for the conference should "
+                       " submit a short abstract to for review, this should be around 300 words"
+                       "in total and summarise the themes of the full paper. This should be "
+                       "written in the 'Abstract' box at the bottom of the 'Upload Abstract'"
+                       "page, along with all other required info.</li></ul>"},
+
+                    {"headline": "Speaker Information",
                   "id": "SpeakerInformation",
                    "table_class":
                        "<ul><li>Presentations should be in MS PowerPoint or PDF format. Please keep the use"
